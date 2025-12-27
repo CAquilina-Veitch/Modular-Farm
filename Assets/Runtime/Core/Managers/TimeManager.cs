@@ -1,8 +1,9 @@
 using R3;
 using UnityEngine;
-using PromptHarvest.Data;
+using Runtime.Core.Behaviours;
+using Runtime.Data.Enums;
 
-namespace PromptHarvest.Core.Managers
+namespace Runtime.Core.Managers
 {
     public class TimeManager : SingletonBehaviour<TimeManager>
     {

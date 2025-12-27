@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace PromptHarvest.Core
+namespace Runtime.Core.Behaviours
 {
     public abstract class SingletonBehaviour<T> : MonoBehaviour where T : SingletonBehaviour<T>
     {

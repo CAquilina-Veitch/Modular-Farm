@@ -1,4 +1,4 @@
-namespace PromptHarvest.Data
+namespace Runtime.Data.Enums
 {
     public enum TimePhase
     {
