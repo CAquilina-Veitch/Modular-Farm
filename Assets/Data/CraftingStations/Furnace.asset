@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0cc43d3d119ad04793172cdfd5de64a, type: 3}
+  m_Name: Furnace
+  m_EditorClassIdentifier: 
+  Id: station_furnace
+  Name: Furnace
+  StationType: 1
+  RecipesEnabled:
+  - recipe_smelt_iron_bar
+  PlaceableZones: 01000000
+  SizeTiles:
+    Width: 1
+    Height: 1
+  CraftCost:
+  - ItemId: item_stone
+    Quantity: 20
+  - ItemId: item_clay
+    Quantity: 10
+  SpriteHint: station_furnace
+  Sprite: {fileID: 0}
+  Tags:
+  - station
+  - smelting
+  - base

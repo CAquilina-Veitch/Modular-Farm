@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82d51a24013b4d54bb67c12d2c4f705c, type: 3}
+  m_Name: JanesHomestead
+  m_EditorClassIdentifier: 
+  Id: building_janes_homestead
+  Name: Jane's Homestead
+  Zone: 0
+  SizeTiles:
+    Width: 4
+    Height: 3
+  DoorTile:
+    X: 1
+    Y: 0
+  InteriorSize: 2
+  InteriorLayout: []
+  OwnerNPCId: npc_farmer_jane
+  EntryConditions:
+  - Type: 1
+    TargetId: 
+    MinValue: 0
+    ValidPhases: 01000000
+  - Type: 0
+    TargetId: npc_farmer_jane
+    MinValue: 40
+    ValidPhases: 
+  SpriteHint: building_farmhouse
+  Sprite: {fileID: 0}
+  Tags:
+  - building
+  - home
+  - shop
+  - base

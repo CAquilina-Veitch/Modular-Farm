@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7c88b9ada9462d45b84f772fc964d07, type: 3}
+  m_Name: FreshProduce
+  m_EditorClassIdentifier: 
+  Id: quest_bring_turnips
+  Name: Fresh Produce
+  GiverNPCId: npc_farmer_jane
+  Description: Farmer Jane needs some fresh turnips for her stall. Bring her 5 turnips.
+  QuestType: 0
+  Objectives:
+  - Type: 0
+    TargetId: item_turnip
+    Quantity: 5
+  Rewards:
+    Gold: 100
+    Items:
+    - ItemId: item_turnip_seeds
+      Quantity: 10
+    Friendship:
+    - NPCId: npc_farmer_jane
+      Points: 15
+  DeadlineDays: 0
+  Repeatable: 1
+  PrerequisiteQuestId: 
+  Tags:
+  - quest
+  - fetch
+  - farming
+  - starter

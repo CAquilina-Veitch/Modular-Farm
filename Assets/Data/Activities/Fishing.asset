@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cad4701a390d1024b8213e45e1166adb, type: 3}
+  m_Name: Fishing
+  m_EditorClassIdentifier: 
+  Id: activity_fishing
+  Name: Fishing
+  ValidZones: 03000000
+  ValidPhases: 0000000001000000
+  FriendshipRequired: 20
+  NPCEnjoyment:
+  - NPCId: npc_farmer_jane
+    Multiplier: 1.5
+  FriendshipGainBase: 10
+  AdvancesTimePhase: 1
+  Rewards:
+  - ItemId: item_fish
+    Chance: 0.8
+  SpriteHint: activity_fishing
+  Sprite: {fileID: 0}
+  Tags:
+  - activity
+  - outdoor
+  - relaxing

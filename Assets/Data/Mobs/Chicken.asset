@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa310be8bc3c35b43a004ec09d261590, type: 3}
+  m_Name: Chicken
+  m_EditorClassIdentifier: 
+  Id: mob_chicken
+  Name: Chicken
+  Behavior: 2
+  SpawnZones: 01000000
+  SpawnWeight: 1
+  SpawnWeather: 03000000
+  SpawnSeasons: 00000000010000000200000003000000
+  Drops:
+  - ItemId: item_feather
+    Chance: 0.5
+    QuantityMin: 1
+    QuantityMax: 2
+  Harvestable: 1
+  HarvestToolId: 
+  HarvestResultId: item_egg
+  HarvestCooldownHours: 24
+  TameItemId: 
+  PurchasableFromNPCId: npc_farmer_jane
+  PurchasePrice: 100
+  SpriteHint: mob_chicken
+  Sprite: {fileID: 0}
+  Tags:
+  - mob
+  - animal
+  - farm
+  - base

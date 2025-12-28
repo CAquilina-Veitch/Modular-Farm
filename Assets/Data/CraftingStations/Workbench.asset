@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0cc43d3d119ad04793172cdfd5de64a, type: 3}
+  m_Name: Workbench
+  m_EditorClassIdentifier: 
+  Id: station_workbench
+  Name: Workbench
+  StationType: 0
+  RecipesEnabled: []
+  PlaceableZones: 01000000
+  SizeTiles:
+    Width: 2
+    Height: 1
+  CraftCost:
+  - ItemId: item_wood
+    Quantity: 30
+  SpriteHint: station_workbench
+  Sprite: {fileID: 0}
+  Tags:
+  - station
+  - crafting
+  - base
