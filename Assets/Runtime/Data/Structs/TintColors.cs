@@ -55,5 +55,85 @@ namespace Runtime.Data.Structs
             Tertiary = Color.white,
             Glow = Color.clear
         };
+
+        public static TintColors Stone => new TintColors
+        {
+            Primary = new Color(0.5f, 0.5f, 0.5f),  // Gray
+            Secondary = Color.white,
+            Tertiary = Color.white,
+            Glow = Color.clear
+        };
+
+        public static TintColors Bone => new TintColors
+        {
+            Primary = new Color(0.95f, 0.9f, 0.8f),  // Off-white
+            Secondary = Color.white,
+            Tertiary = Color.white,
+            Glow = Color.clear
+        };
+
+        public static TintColors Bronze => new TintColors
+        {
+            Primary = new Color(0.8f, 0.5f, 0.2f),  // Bronze
+            Secondary = Color.white,
+            Tertiary = Color.white,
+            Glow = Color.clear
+        };
+
+        public static TintColors Silver => new TintColors
+        {
+            Primary = new Color(0.75f, 0.75f, 0.8f),  // Silver
+            Secondary = Color.white,
+            Tertiary = Color.white,
+            Glow = new Color(0.9f, 0.9f, 1f, 0.3f)
+        };
+
+        public static TintColors Crystal => new TintColors
+        {
+            Primary = new Color(0.7f, 0.85f, 1f),  // Light blue
+            Secondary = Color.white,
+            Tertiary = Color.white,
+            Glow = new Color(0.8f, 0.9f, 1f, 0.5f)
+        };
+
+        public static TintColors Emerald => new TintColors
+        {
+            Primary = new Color(0.2f, 0.8f, 0.4f),  // Green
+            Secondary = Color.white,
+            Tertiary = Color.white,
+            Glow = new Color(0.3f, 1f, 0.5f, 0.4f)
+        };
+
+        public static TintColors Ruby => new TintColors
+        {
+            Primary = new Color(0.9f, 0.1f, 0.2f),  // Red
+            Secondary = Color.white,
+            Tertiary = Color.white,
+            Glow = new Color(1f, 0.2f, 0.3f, 0.4f)
+        };
+
+        public static TintColors Sapphire => new TintColors
+        {
+            Primary = new Color(0.2f, 0.3f, 0.9f),  // Blue
+            Secondary = Color.white,
+            Tertiary = Color.white,
+            Glow = new Color(0.3f, 0.4f, 1f, 0.4f)
+        };
+
+        public static TintColors Leather => new TintColors
+        {
+            Primary = new Color(0.55f, 0.35f, 0.2f),  // Tan
+            Secondary = Color.white,
+            Tertiary = Color.white,
+            Glow = Color.clear
+        };
+
+        public static TintColors Cloth => new TintColors
+        {
+            Primary = new Color(0.9f, 0.85f, 0.75f),  // Beige
+            Secondary = Color.white,
+            Tertiary = Color.white,
+            Glow = Color.clear
+        };
     }
 }
